@@ -10,6 +10,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./layouts/Root";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import AllJobs from "./pages/AllJobs";
+import MyJobs from "./pages/MyJobs";
+import JobDetails from "./pages/JobDetails";
+import Onboard from "./pages/Onboard";
 
 // import AllJobs from "./pages/AllJobs";
 const router = createBrowserRouter([
@@ -24,6 +28,22 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/jobs",
+        element: <AllJobs />,
+      },
+      {
+        path: "/my-jobs",
+        element: <MyJobs />,
+      },
+      {
+        path: "/job/:id",
+        element: <JobDetails />,
+      },
+      {
+        path: "/onboard",
+        element: <Onboard />,
       },
     ],
   },

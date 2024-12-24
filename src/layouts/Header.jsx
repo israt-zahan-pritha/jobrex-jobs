@@ -1,3 +1,9 @@
+import { ModeToggle } from "@/components/mode-toggle";
+
 export default function Header() {
-  return <div>Header</div>;
+  return (
+    <div>
+      <ModeToggle />
+    </div>
+  );
 }

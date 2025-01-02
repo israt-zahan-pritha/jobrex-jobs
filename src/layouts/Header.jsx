@@ -33,7 +33,6 @@
 //   );
 // }
 
-
 // import ThemeToggle from "@/components/mode-toggle";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
@@ -63,7 +62,7 @@ export default function Header() {
   return (
     <header className="py-10">
       <div className="flex justify-between max-w-6xl mx-auto items-center">
-        <div className="logo font-thin text-2xl">JOBREX</div>
+        <div className="logo font-thin text-2xl">JOBREX JOB</div>
         <div className="flex items-center gap-4">
           <ModeToggle />
           <SignedOut>
